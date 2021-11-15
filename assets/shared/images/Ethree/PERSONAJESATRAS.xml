@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="PERSONAJESATRAS.png"><SubTexture name="PERSONAJESATRAS idle0000" x="0" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0001" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0002" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0003" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0004" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0005" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0006" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0007" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0008" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0009" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0010" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0011" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0012" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0013" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0014" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0015" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0016" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0017" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0018" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0019" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+<SubTexture name="PERSONAJESATRAS idle0020" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+</TextureAtlas>

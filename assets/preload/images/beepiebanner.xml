@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="beepiebanner.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="beeppii0000" x="0" y="0" width="762" height="857" pivotX="35.7" pivotY="-3.9" frameX="0" frameY="-6" frameWidth="794" frameHeight="863"/>
+	<SubTexture name="beeppii0001" x="762" y="0" width="764" height="857" frameX="-3" frameY="-5" frameWidth="794" frameHeight="863"/>
+	<SubTexture name="beeppii0002" x="1526" y="0" width="767" height="855" frameX="-12" frameY="-3" frameWidth="794" frameHeight="863"/>
+	<SubTexture name="beeppii0003" x="2293" y="0" width="768" height="853" frameX="-23" frameY="-1" frameWidth="794" frameHeight="863"/>
+	<SubTexture name="beeppii0004" x="3061" y="0" width="767" height="852" frameX="-27" frameY="0" frameWidth="794" frameHeight="863"/>
+	<SubTexture name="beeppii0005" x="3061" y="0" width="767" height="852" frameX="-27" frameY="0" frameWidth="794" frameHeight="863"/>
+	<SubTexture name="beeppii0006" x="3061" y="0" width="767" height="852" frameX="-27" frameY="0" frameWidth="794" frameHeight="863"/>
+	<SubTexture name="beeppii0007" x="3061" y="0" width="767" height="852" frameX="-27" frameY="0" frameWidth="794" frameHeight="863"/>
+	<SubTexture name="beeppii0008" x="3061" y="0" width="767" height="852" frameX="-27" frameY="0" frameWidth="794" frameHeight="863"/>
+	<SubTexture name="beeppii0009" x="3061" y="0" width="767" height="852" frameX="-27" frameY="0" frameWidth="794" frameHeight="863"/>
+	<SubTexture name="beeppii0010" x="3061" y="0" width="767" height="852" frameX="-27" frameY="0" frameWidth="794" frameHeight="863"/>
+	<SubTexture name="beeppii0011" x="3061" y="0" width="767" height="852" frameX="-27" frameY="0" frameWidth="794" frameHeight="863"/>
+	<SubTexture name="beeppii0012" x="3061" y="0" width="767" height="852" frameX="-27" frameY="0" frameWidth="794" frameHeight="863"/>
+	<SubTexture name="beeppii0013" x="3061" y="0" width="767" height="852" frameX="-27" frameY="0" frameWidth="794" frameHeight="863"/>
+	<SubTexture name="beeppii0014" x="3061" y="0" width="767" height="852" frameX="-27" frameY="0" frameWidth="794" frameHeight="863"/>
+</TextureAtlas>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="skye2.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="beepie down0000" x="0" y="0" width="406" height="442" pivotX="23.65" pivotY="158.2" frameX="0" frameY="-8" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0001" x="0" y="0" width="406" height="442" frameX="0" frameY="-8" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0002" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0003" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0004" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0005" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0006" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0007" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0008" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0009" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0010" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0011" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0012" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0013" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0014" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0015" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0016" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0017" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0018" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie down0019" x="406" y="0" width="408" height="450" frameX="-1" frameY="0" frameWidth="409" frameHeight="450"/>
+	<SubTexture name="beepie idle0000" x="814" y="0" width="413" height="538" pivotX="-124.35" pivotY="-94.9" frameX="0" frameY="-7" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0001" x="814" y="0" width="413" height="538" frameX="0" frameY="-7" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0002" x="1227" y="0" width="413" height="540" frameX="0" frameY="-5" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0003" x="1227" y="0" width="413" height="540" frameX="0" frameY="-5" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0004" x="1640" y="0" width="414" height="542" frameX="0" frameY="-3" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0005" x="1640" y="0" width="414" height="542" frameX="0" frameY="-3" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0006" x="2054" y="0" width="382" height="531" frameX="-38" frameY="-14" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0007" x="2054" y="0" width="382" height="531" frameX="-38" frameY="-14" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0008" x="2436" y="0" width="382" height="532" frameX="-48" frameY="-13" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0009" x="2436" y="0" width="382" height="532" frameX="-48" frameY="-13" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0010" x="2818" y="0" width="390" height="539" frameX="-46" frameY="-6" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0011" x="2818" y="0" width="390" height="539" frameX="-46" frameY="-6" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0012" x="3208" y="0" width="393" height="543" frameX="-44" frameY="-2" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0013" x="3208" y="0" width="393" height="543" frameX="-44" frameY="-2" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0014" x="3601" y="0" width="403" height="545" frameX="-35" frameY="0" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0015" x="3601" y="0" width="403" height="545" frameX="-35" frameY="0" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0016" x="0" y="545" width="412" height="544" frameX="-7" frameY="-1" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0017" x="0" y="545" width="412" height="544" frameX="-7" frameY="-1" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0018" x="412" y="545" width="412" height="541" frameX="-3" frameY="-4" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie idle0019" x="412" y="545" width="412" height="541" frameX="-3" frameY="-4" frameWidth="438" frameHeight="545"/>
+	<SubTexture name="beepie left0000" x="824" y="545" width="437" height="533" pivotX="64.7" pivotY="203.45" frameX="0" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0001" x="824" y="545" width="437" height="533" frameX="0" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0002" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0003" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0004" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0005" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0006" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0007" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0008" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0009" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0010" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0011" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0012" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0013" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0014" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0015" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0016" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0017" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0018" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie left0019" x="1261" y="545" width="435" height="533" frameX="-3" frameY="0" frameWidth="438" frameHeight="533"/>
+	<SubTexture name="beepie right0000" x="1696" y="545" width="379" height="547" pivotX="-193.4" pivotY="-93.7" frameX="-6" frameY="0" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0001" x="1696" y="545" width="379" height="547" frameX="-6" frameY="0" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0002" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0003" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0004" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0005" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0006" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0007" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0008" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0009" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0010" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0011" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0012" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0013" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0014" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0015" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0016" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0017" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0018" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie right0019" x="2075" y="545" width="381" height="546" frameX="0" frameY="-1" frameWidth="385" frameHeight="547"/>
+	<SubTexture name="beepie up0000" x="2456" y="545" width="395" height="563" pivotX="-159.1" pivotY="-69.9" frameX="-1" frameY="0" frameWidth="399" frameHeight="564"/>
+	<SubTexture name="beepie up0001" x="2456" y="545" width="395" height="563" frameX="-1" frameY="0" frameWidth="399" frameHeight="564"/>
+	<SubTexture name="beepie up0002" x="2851" y="545" width="399" height="558" frameX="0" frameY="-6" frameWidth="399" frameHeight="564"/>
+	<SubTexture name="beepie up0003" x="2851" y="545" width="399" height="558" frameX="0" frameY="-6" frameWidth="399" frameHeight="564"/>
+	<SubTexture name="beepie up0004" x="2851" y="545" width="399" height="558" frameX="0" frameY="-6" frameWidth="399" frameHeight="564"/>
+	<SubTexture name="beepie up0005" x="2851" y="545" width="399" height="558" frameX="0" frameY="-6" frameWidth="399" frameHeight="564"/>
+	<SubTexture name="beepie up0006" x="2851" y="545" width="399" height="558" frameX="0" frameY="-6" frameWidth="399" frameHeight="564"/>
+	<SubTexture name="beepie up0007" x="2851" y="545" width="399" height="558" frameX="0" frameY="-6" frameWidth="399" frameHeight="564"/>
+	<SubTexture name="beepie up0008" x="2851" y="545" width="399" height="558" frameX="0" frameY="-6" frameWidth="399" frameHeight="564"/>
+	<SubTexture name="beepie up0009" x="2851" y="545" width="399" height="558" frameX="0" frameY="-6" frameWidth="399" frameHeight="564"/>
+	<SubTexture name="beepie up0010" x="2851" y="545" width="399" height="558" frameX="0" frameY="-6" frameWidth="399" frameHeight="564"/>
+	<SubTexture name="beepie up0011" x="2851" y="545" width="399" height="558" frameX="0" frameY="-6" frameWidth="399" frameHeight="564"/>
+	<SubTexture name="beepie up0012" x="2851" y="545" width="399" height="558" frameX="0" frameY="-6" frameWidth="399" frameHeight="564"/>
+	<SubTexture name="beepie up0013" x="2851" y="545" width="399" height="558" frameX="0" frameY="-6" frameWidth="399" frameHeight="564"/>
+</TextureAtlas>
