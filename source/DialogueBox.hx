@@ -30,14 +30,6 @@ class DialogueBox extends FlxSpriteGroup
 
 	var portraitLeft:FlxSprite;
 	var portraitRight:FlxSprite;
-	var portraitBeepieEmo:FlxSprite;
-	var portraitBeepieNormal:FlxSprite;
-	var portraitBeepieShadow:FlxSprite;
-	var portraitBfNormal:FlxSprite;
-	var portraitBfKhe:FlxSprite;
-	var portraitGfSus:FlxSprite;
-	var portraitGfNormal:FlxSprite;
-	var portraitGfHey:FlxSprite;
 
 	var handSelect:FlxSprite;
 	var bgFade:FlxSprite;
@@ -74,13 +66,11 @@ class DialogueBox extends FlxSpriteGroup
 		switch (PlayState.SONG.song.toLowerCase())
 		{
 			case 'senpai':
-				box = new FlxSprite(-20, 45);
 				hasDialog = true;
 				box.frames = Paths.getSparrowAtlas('weeb/pixelUI/dialogueBox-pixel');
 				box.animation.addByPrefix('normalOpen', 'Text Box Appear', 24, false);
 				box.animation.addByIndices('normal', 'Text Box Appear', [4], "", 24);
 			case 'roses':
-				box = new FlxSprite(-20, 45);
 				hasDialog = true;
 				FlxG.sound.play(Paths.sound('ANGRY_TEXT_BOX'));
 
@@ -89,7 +79,6 @@ class DialogueBox extends FlxSpriteGroup
 				box.animation.addByIndices('normal', 'SENPAI ANGRY IMPACT SPEECH', [4], "", 24);
 
 			case 'thorns':
-				box = new FlxSprite(-20, 45);
 				hasDialog = true;
 				box.frames = Paths.getSparrowAtlas('weeb/pixelUI/dialogueBox-evil');
 				box.animation.addByPrefix('normalOpen', 'Spirit Textbox spawn', 24, false);
@@ -98,21 +87,12 @@ class DialogueBox extends FlxSpriteGroup
 				var face:FlxSprite = new FlxSprite(320, 170).loadGraphic(Paths.image('weeb/spiritFaceForward'));
 				face.setGraphicSize(Std.int(face.width * 6));
 				add(face);
-
-			case 'stalker':
-				box = new FlxSprite(0, 390);
-				hasDialog = true;
-				box.frames = Paths.getSparrowAtlas('speech_bubble_talking');
-				box.animation.addByPrefix('normalOpen', 'Speech Bubble Normal Open', 24, false);
-				box.animation.addByPrefix('normal', 'speech bubble normal', 24, true);
 		}
 
 		this.dialogueList = dialogueList;
 		
 		if (!hasDialog)
 			return;
-
-		if (PlayState.SONG.song.toLowerCase()=='senpai' || PlayState.SONG.song.toLowerCase()=='roses' || PlayState.SONG.song.toLowerCase()=='thorns'){
 		
 		portraitLeft = new FlxSprite(-20, 40);
 		portraitLeft.frames = Paths.getSparrowAtlas('weeb/senpaiPortrait');
@@ -143,117 +123,6 @@ class DialogueBox extends FlxSpriteGroup
 		handSelect = new FlxSprite(FlxG.width * 0.9, FlxG.height * 0.9).loadGraphic(Paths.image('weeb/pixelUI/hand_textbox'));
 		add(handSelect);
 
-	}   if (PlayState.SONG.song.toLowerCase()=='stalker'){
-
-		//portraitLeft = new FlxSprite(250, 140);
-		portraitLeft = new FlxSprite(250, 1000);
-		portraitLeft.frames = Paths.getSparrowAtlas('weeb/senpaiPortrait');
-		portraitLeft.animation.addByPrefix('enter', 'Senpai Portrait Enter', 24, true);
-		portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.13));
-		portraitLeft.updateHitbox();
-		portraitLeft.scrollFactor.set();
-		add(portraitLeft);
-		portraitLeft.visible = false;
-
-		portraitRight = new FlxSprite(750, 150);
-		portraitRight.frames = Paths.getSparrowAtlas('portraits/dialoguebfasustado');
-		portraitRight.animation.addByPrefix('enter', 'dialoguebfasustado aameasuste', 24, true);
-		portraitRight.animation.addByPrefix('stop', 'stop', 24, false);
-		portraitRight.setGraphicSize(Std.int(portraitRight.width * PlayState.daPixelZoom * 0.13));
-		portraitRight.updateHitbox();
-		portraitRight.scrollFactor.set();
-		add(portraitRight);
-		portraitRight.visible = false;
-
-		portraitBeepieEmo = new FlxSprite(150, 140);
-		portraitBeepieEmo.frames = Paths.getSparrowAtlas('portraits/beepieemocionadadialoguo');
-		portraitBeepieEmo.animation.addByPrefix('enter', 'beepieemocionadadialoguo aaaa', 24, true);
-		portraitBeepieEmo.animation.addByPrefix('stop', 'stop', 24, false);
-		portraitBeepieEmo.setGraphicSize(Std.int(portraitBeepieEmo.width * PlayState.daPixelZoom * 0.13));
-		portraitBeepieEmo.updateHitbox();
-		portraitBeepieEmo.scrollFactor.set();
-		add(portraitBeepieEmo);
-		portraitBeepieEmo.visible = false;
-
-		portraitBeepieNormal = new FlxSprite(150, 140);
-		portraitBeepieNormal.frames = Paths.getSparrowAtlas('portraits/beepienormaldialogue');
-		portraitBeepieNormal.animation.addByPrefix('enter', 'beepienormaldialogue beepienormal', 24, true);
-		portraitBeepieNormal.animation.addByPrefix('stop', 'stop', 24, false);
-		portraitBeepieNormal.setGraphicSize(Std.int(portraitBeepieNormal.width * PlayState.daPixelZoom * 0.13));
-		portraitBeepieNormal.updateHitbox();
-		portraitBeepieNormal.scrollFactor.set();
-		add(portraitBeepieNormal);
-		portraitBeepieNormal.visible = false;
-
-		portraitBeepieShadow = new FlxSprite(150, 140);
-		portraitBeepieShadow.frames = Paths.getSparrowAtlas('portraits/beepienshadowdialogue');
-		portraitBeepieShadow.animation.addByPrefix('enter', 'beepienormaldialogue beepienormal', 24, true);
-		portraitBeepieShadow.animation.addByPrefix('stop', 'stop', 24, false);
-		portraitBeepieShadow.setGraphicSize(Std.int(portraitBeepieShadow.width * PlayState.daPixelZoom * 0.13));
-		portraitBeepieShadow.updateHitbox();
-		portraitBeepieShadow.scrollFactor.set();
-		add(portraitBeepieShadow);
-		portraitBeepieShadow.visible = false;
-
-		portraitBfNormal = new FlxSprite(750, 150);
-		portraitBfNormal.frames = Paths.getSparrowAtlas('portraits/dialoguebfnormal');
-		portraitBfNormal.animation.addByPrefix('enter', 'dialoguebfnormal normal', 24, true);
-		portraitBfNormal.animation.addByPrefix('stop', 'stop', 24, false);
-		portraitBfNormal.setGraphicSize(Std.int(portraitBfNormal.width * PlayState.daPixelZoom * 0.13));
-		portraitBfNormal.updateHitbox();
-		portraitBfNormal.scrollFactor.set();
-		add(portraitBfNormal);
-		portraitBfNormal.visible = false;
-
-		portraitBfKhe = new FlxSprite(750, 150);
-		portraitBfKhe.frames = Paths.getSparrowAtlas('portraits/dialoguebfque');
-		portraitBfKhe.animation.addByPrefix('enter', 'dialoguebfque qie', 24, true);
-		portraitBfKhe.animation.addByPrefix('stop', 'stop', 24, false);
-		portraitBfKhe.setGraphicSize(Std.int(portraitBfKhe.width * PlayState.daPixelZoom * 0.13));
-		portraitBfKhe.updateHitbox();
-		portraitBfKhe.scrollFactor.set();
-		add(portraitBfKhe);
-		portraitBfKhe.visible = false;
-
-		portraitGfSus = new FlxSprite(750, 150);
-		portraitGfSus.frames = Paths.getSparrowAtlas('portraits/gfasustadadialogo');
-		portraitGfSus.animation.addByPrefix('enter', 'gfasustadadialogo AAKESUSTO', 24, true);
-		portraitGfSus.animation.addByPrefix('stop', 'stop', 24, false);
-		portraitGfSus.setGraphicSize(Std.int(portraitGfSus.width * PlayState.daPixelZoom * 0.13));
-		portraitGfSus.updateHitbox();
-		portraitGfSus.scrollFactor.set();
-		add(portraitGfSus);
-		portraitGfSus.visible = false;
-
-		portraitGfNormal = new FlxSprite(750, 150);
-		portraitGfNormal.frames = Paths.getSparrowAtlas('portraits/gfnormaldialogo');
-		portraitGfNormal.animation.addByPrefix('enter', 'gfnormaldialogo gfnormal', 24, true);
-		portraitGfNormal.animation.addByPrefix('stop', 'stop', 24, false);
-		portraitGfNormal.setGraphicSize(Std.int(portraitGfNormal.width * PlayState.daPixelZoom * 0.13));
-		portraitGfNormal.updateHitbox();
-		portraitGfNormal.scrollFactor.set();
-		add(portraitGfNormal);
-		portraitGfNormal.visible = false;
-
-		portraitGfHey = new FlxSprite(750, 150);
-		portraitGfHey.frames = Paths.getSparrowAtlas('portraits/gfsaludandodialogo');
-		portraitGfHey.animation.addByPrefix('enter', 'gfsaludandodialogo holaa', 24, true);
-		portraitGfHey.animation.addByPrefix('stop', 'stop', 24, false);
-		portraitGfHey.setGraphicSize(Std.int(portraitGfHey.width * PlayState.daPixelZoom * 0.13));
-		portraitGfHey.updateHitbox();
-		portraitGfHey.scrollFactor.set();
-		add(portraitGfHey);
-		portraitGfHey.visible = false;
-		
-		box.animation.play('normalOpen');
-		box.setGraphicSize(Std.int(box.width * PlayState.daPixelZoom * 0.16));
-		box.updateHitbox();
-		add(box);
-
-		box.screenCenter(X);
-		portraitLeft.screenCenter(X);
-
-	}
 
 		if (!talkingRight)
 		{
@@ -350,20 +219,6 @@ class DialogueBox extends FlxSpriteGroup
 		super.update(elapsed);
 	}
 
-	function endAnimation():Void 
-	{
-		portraitLeft.animation.play('stop', true);
-        portraitRight.animation.play('stop', true);
-        portraitBeepieEmo.animation.play('stop', true);
-        portraitBeepieNormal.animation.play('stop', true);
-		portraitBeepieShadow.animation.play('stop', true);
-        portraitBfNormal.animation.play('stop', true);
-        portraitBfKhe.animation.play('stop', true);
-        portraitGfSus.animation.play('stop', true);
-        portraitGfNormal.animation.play('stop', true);
-        portraitGfHey.animation.play('stop', true);
-	}
-
 	var isEnding:Bool = false;
 
 	function startDialogue():Void
@@ -376,7 +231,6 @@ class DialogueBox extends FlxSpriteGroup
 		// swagDialogue.text = ;
 		swagDialogue.resetText(dialogueList[0]);
 		swagDialogue.start(0.04, true);
-		swagDialogue.completeCallback = endAnimation;
 
 		switch (curCharacter)
 		{
@@ -393,176 +247,6 @@ class DialogueBox extends FlxSpriteGroup
 				{
 					portraitRight.visible = true;
 					portraitRight.animation.play('enter');
-				}
-			case 'senpai':
-				portraitRight.visible = false;
-				portraitBeepieEmo.visible = false;
-				portraitBeepieNormal.visible = false;
-				portraitBeepieShadow.visible = false;
-				portraitBfNormal.visible = false;
-				portraitBfKhe.visible = false;
-				portraitGfSus.visible = false;
-				portraitGfNormal.visible = false;
-				portraitGfHey.visible = false;
-				if (!portraitLeft.visible)
-				{
-					portraitLeft.visible = true;
-					portraitLeft.animation.play('enter');
-
-					box.flipX = false;
-				}
-			case 'bfsus':
-				portraitLeft.visible = false;
-				portraitBeepieEmo.visible = false;
-				portraitBeepieNormal.visible = false;
-				portraitBeepieShadow.visible = false;
-				portraitBfNormal.visible = false;
-				portraitBfKhe.visible = false;
-				portraitGfSus.visible = false;
-				portraitGfNormal.visible = false;
-				portraitGfHey.visible = false;
-				if (!portraitRight.visible)
-				{
-					portraitRight.visible = true;
-					portraitRight.animation.play('enter');
-
-					box.flipX = false;
-				}
-			case 'beepieEmo':
-				portraitRight.visible = false;
-				portraitBeepieEmo.visible = false;
-				portraitBeepieNormal.visible = false;
-				portraitBeepieShadow.visible = false;
-				portraitBfNormal.visible = false;
-				portraitBfKhe.visible = false;
-				portraitGfSus.visible = false;
-				portraitGfNormal.visible = false;
-				portraitGfHey.visible = false;
-				if (!portraitBeepieEmo.visible)
-				{
-					portraitBeepieEmo.visible = true;
-					portraitBeepieEmo.animation.play('enter');
-
-					box.flipX = false;
-				}
-			case 'beepienormal':
-				portraitRight.visible = false;
-				portraitBeepieEmo.visible = false;
-				portraitBeepieNormal.visible = false;
-				portraitBeepieShadow.visible = false;
-				portraitBfNormal.visible = false;
-				portraitBfKhe.visible = false;
-				portraitGfSus.visible = false;
-				portraitGfNormal.visible = false;
-				portraitGfHey.visible = false;
-				if (!portraitBeepieNormal.visible)
-				{
-					portraitBeepieNormal.visible = true;
-					portraitBeepieNormal.animation.play('enter');
-
-					box.flipX = false;
-				}
-			case 'beepieshadow':
-				portraitRight.visible = false;
-				portraitBeepieEmo.visible = false;
-				portraitBeepieNormal.visible = false;
-				portraitBeepieShadow.visible = false;
-				portraitBfNormal.visible = false;
-				portraitBfKhe.visible = false;
-				portraitGfSus.visible = false;
-				portraitGfNormal.visible = false;
-				portraitGfHey.visible = false;
-				if (!portraitBeepieShadow.visible)
-				{
-					portraitBeepieShadow.visible = true;
-					portraitBeepieShadow.animation.play('enter');
-
-					box.flipX = false;
-				}
-			case 'bfnormal':
-				portraitLeft.visible = false;
-				portraitBeepieEmo.visible = false;
-				portraitBeepieNormal.visible = false;
-				portraitBeepieShadow.visible = false;
-				portraitBfNormal.visible = false;
-				portraitBfKhe.visible = false;
-				portraitGfSus.visible = false;
-				portraitGfNormal.visible = false;
-				portraitGfHey.visible = false;
-				if (!portraitBfNormal.visible)
-				{
-					portraitBfNormal.visible = true;
-					portraitBfNormal.animation.play('enter');
-
-					box.flipX = false;
-				}
-			case 'bfkhe':
-				portraitLeft.visible = false;
-				portraitBeepieEmo.visible = false;
-				portraitBeepieNormal.visible = false;
-				portraitBeepieShadow.visible = false;
-				portraitBfNormal.visible = false;
-				portraitBfKhe.visible = false;
-				portraitGfSus.visible = false;
-				portraitGfNormal.visible = false;
-				portraitGfHey.visible = false;
-				if (!portraitBfKhe.visible)
-				{
-					portraitBfKhe.visible = true;
-					portraitBfKhe.animation.play('enter');
-
-					box.flipX = false;
-				}
-			case 'gfsus':
-				portraitLeft.visible = false;
-				portraitBeepieEmo.visible = false;
-				portraitBeepieNormal.visible = false;
-				portraitBeepieShadow.visible = false;
-				portraitBfNormal.visible = false;
-				portraitBfKhe.visible = false;
-				portraitGfSus.visible = false;
-				portraitGfNormal.visible = false;
-				portraitGfHey.visible = false;
-				if (!portraitGfSus.visible)
-				{
-					portraitGfSus.visible = true;
-					portraitGfSus.animation.play('enter');
-
-					box.flipX = false;
-				}
-			case 'gfnormal':
-				portraitLeft.visible = false;
-				portraitBeepieEmo.visible = false;
-				portraitBeepieNormal.visible = false;
-				portraitBeepieShadow.visible = false;
-				portraitBfNormal.visible = false;
-				portraitBfKhe.visible = false;
-				portraitGfSus.visible = false;
-				portraitGfNormal.visible = false;
-				portraitGfHey.visible = false;
-				if (!portraitGfNormal.visible)
-				{
-					portraitGfNormal.visible = true;
-					portraitGfNormal.animation.play('enter');
-
-					box.flipX = false;
-				}
-			case 'gfHi':
-				portraitLeft.visible = false;
-				portraitBeepieEmo.visible = false;
-				portraitBeepieNormal.visible = false;
-				portraitBeepieShadow.visible = false;
-				portraitBfNormal.visible = false;
-				portraitBfKhe.visible = false;
-				portraitGfSus.visible = false;
-				portraitGfNormal.visible = false;
-				portraitGfHey.visible = false;
-				if (!portraitGfHey.visible)
-				{						
-					portraitGfHey.visible = true;
-					portraitGfHey.animation.play('enter');
-
-					box.flipX = false;
 				}
 		}
 	}

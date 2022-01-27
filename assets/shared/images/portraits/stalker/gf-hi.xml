@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="gf-hi.png"><SubTexture name="dialogue0000" x="0" y="0" width="504" height="424" frameX="0" frameY="0" frameWidth="504" frameHeight="424" />
+<SubTexture name="dialogue0001" x="504" y="0" width="504" height="424" frameX="0" frameY="0" frameWidth="504" frameHeight="424" />
+<SubTexture name="dialogue0002" x="504" y="0" width="504" height="424" frameX="0" frameY="0" frameWidth="504" frameHeight="424" />
+<SubTexture name="dialogue0003" x="504" y="0" width="504" height="424" frameX="0" frameY="0" frameWidth="504" frameHeight="424" />
+<SubTexture name="dialogue0004" x="504" y="0" width="504" height="424" frameX="0" frameY="0" frameWidth="504" frameHeight="424" />
+<SubTexture name="dialogue0005" x="1008" y="0" width="504" height="424" frameX="0" frameY="0" frameWidth="504" frameHeight="424" />
+<SubTexture name="dialogue0006" x="1008" y="0" width="504" height="424" frameX="0" frameY="0" frameWidth="504" frameHeight="424" />
+<SubTexture name="dialogue0007" x="1008" y="0" width="504" height="424" frameX="0" frameY="0" frameWidth="504" frameHeight="424" />
+<SubTexture name="dialogue0008" x="1008" y="0" width="504" height="424" frameX="0" frameY="0" frameWidth="504" frameHeight="424" />
+<SubTexture name="stop 0000" x="1008" y="0" width="504" height="424" frameX="0" frameY="0" frameWidth="504" frameHeight="424" />
+</TextureAtlas>

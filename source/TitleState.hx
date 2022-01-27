@@ -1,5 +1,7 @@
 package;
 
+import polymod.fs.SysFileSystem;
+import lime.system.System;
 #if sys
 import smTools.SMFile;
 #end
@@ -63,6 +65,7 @@ class TitleState extends MusicBeatState
 		if (!sys.FileSystem.exists(Sys.getCwd() + "/assets/replays"))
 			sys.FileSystem.createDirectory(Sys.getCwd() + "/assets/replays");
 		#end
+		
 
 		@:privateAccess
 		{
@@ -280,7 +283,7 @@ class TitleState extends MusicBeatState
 		//idotSprite.screenCenter(X);
 		idotSprite.antialiasing = true;
 
-		idotSprite2 = new FlxSprite(-150, FlxG.height * 0.19).loadGraphic(Paths.image('idiots 2'));
+		idotSprite2 = new FlxSprite(-50, FlxG.height * 0.19).loadGraphic(Paths.image('idiots 2'));
 		add(idotSprite2);
 		idotSprite2.visible = false;
 		idotSprite2.setGraphicSize(Std.int(idotSprite2.width * 0.8));
@@ -456,37 +459,30 @@ class TitleState extends MusicBeatState
 				addMoreText('blueby');
 			case 6:
 				addMoreText('stickman');
-			// credTextShit.visible = true;
 			case 7:
 				idotSprite.visible = true;
-			// credTextShit.text += '\npresent...';
-			// credTextShit.addText();
 			case 8:
 				deleteCoolText();
 				idotSprite.visible = false;
-			// credTextShit.visible = false;
-			// credTextShit.text = 'In association \nwith';
-			// credTextShit.screenCenter();
 			case 9:
-				createCoolText(['springy teze']);
-			// credTextShit.visible = true;
+				createCoolText(['koichis']);
 			case 10:
-				addMoreText('kimakurus');
+				addMoreText('springy teze');
 			case 11:
-				addMoreText('sickaric');
+				addMoreText('kimakurus');
 			case 12:
-				idotSprite2.visible = true;
-			// credTextShit.text += '\npresent...';
-			// credTextShit.addText();
+				addMoreText('sickaric');
 			case 13:
+				idotSprite2.visible = true;
+			case 14:
 				deleteCoolText();
 				idotSprite2.visible = false;
-			case 14:
+			case 15:
 				if (Main.watermarks)
 					createCoolText(['Kade Engine', 'by']);
 				else
 					createCoolText(['In Partnership', 'with']);
-			case 16:
+			case 17:
 				if (Main.watermarks)
 					addMoreText('KadeDeveloper');
 				else
@@ -494,44 +490,39 @@ class TitleState extends MusicBeatState
 					addMoreText('Newgrounds');
 					ngSpr.visible = true;
 				}
-			// credTextShit.text += '\nNewgrounds';
-			case 17:
+			case 18:
 				deleteCoolText();
 				ngSpr.visible = false;
-			case 18:
-				createCoolText(['bbpanzu']);
-			// credTextShit.visible = true;
 			case 19:
-				addMoreText('aprove this');
+				createCoolText(['thanks bbpanzu']);
 			case 20:
-				deleteCoolText();
+				addMoreText('for all the support');
 			case 21:
-				createCoolText(['dont skip']);
-			// credTextShit.visible = true;
+				deleteCoolText();
 			case 22:
-				addMoreText('the tutorial');
+				createCoolText(['dont skip']);
 			case 23:
-				addMoreText('go to play it');
+				addMoreText('the tutorial');
 			case 24:
-				deleteCoolText();
+				addMoreText('go to play it');
 			case 25:
-				createCoolText([curWacky[0]]);
-			// credTextShit.visible = true;
-			case 26:
-				addMoreText(curWacky[1]);
-			// credTextShit.text += '\nlmao';
-			case 27:
 				deleteCoolText();
+			case 26:
+				createCoolText([curWacky[0]]);
+			case 27:
+				addMoreText(curWacky[1]);
 			case 28:
-				createCoolText(['Friday']);
-
+				deleteCoolText();
 			case 29:
-				addMoreText('Night');
+				createCoolText(['Finally']);
 
 			case 30:
-				addMoreText('Funkin');
+				addMoreText('Beepie');
 
 			case 31:
+				addMoreText('Full Mod');
+
+			case 32:
 				skipIntro();
 		}
 	}

@@ -26,7 +26,7 @@ class StoryMenuState extends MusicBeatState
 
 	var weekData:Array<Dynamic> = [
 		['Polkka'],
-		['Stalker']
+		['Stalker', 'Together Forever', 'Mine', 'That I Need', 'Its Ok']
 	];
 	var curDifficulty:Int = 1;
 
@@ -39,7 +39,7 @@ class StoryMenuState extends MusicBeatState
 
 	var weekNames:Array<String> = [
 		"",
-		"Fangirl"
+		"BF Fangirl number one lol"
 	];
 
 	var txtWeekTitle:FlxText;

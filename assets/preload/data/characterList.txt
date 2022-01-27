@@ -2,4 +2,9 @@ bf
 dad
 gf
 bf-miku
-beepie-normal
+bf-happy
+beepie
+beepie-demon
+bf-sentao
+beepie-unu
+beepie-happy

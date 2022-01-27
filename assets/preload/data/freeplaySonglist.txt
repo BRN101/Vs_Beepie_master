@@ -1,2 +1,6 @@
 Polkka:gf:1
-Stalker:beepie-normal:7
+Stalker:beepie:7
+Together Forever:beepie-demon:7
+Mine:beepie-demon:7
+That I Need:beepie-unu:7
+Its Ok:beepie-happy:7

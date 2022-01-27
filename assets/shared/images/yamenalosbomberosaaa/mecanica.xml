@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fuego.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="piedritititias0000" x="300" y="833" width="65" height="124" frameX="-171" frameY="-293" frameWidth="433" frameHeight="417"/>
+	<SubTexture name="piedritititias0001" x="300" y="833" width="65" height="124" frameX="-171" frameY="-293" frameWidth="433" frameHeight="417"/>
+	<SubTexture name="piedritititias0002" x="223" y="833" width="77" height="124" frameX="-165" frameY="-293" frameWidth="433" frameHeight="417"/>
+	<SubTexture name="piedritititias0003" x="223" y="833" width="77" height="124" frameX="-165" frameY="-293" frameWidth="433" frameHeight="417"/>
+	<SubTexture name="piedritititias0004" x="0" y="833" width="223" height="124" frameX="-92" frameY="-293" frameWidth="433" frameHeight="417"/>
+	<SubTexture name="piedritititias0005" x="0" y="0" width="433" height="417"/>
+	<SubTexture name="piedritititias0006" x="0" y="417" width="433" height="416" frameX="0" frameY="-1" frameWidth="433" frameHeight="417"/>
+	<SubTexture name="piedritititias0007" x="433" y="0" width="395" height="334" frameX="-16" frameY="-83" frameWidth="433" frameHeight="417"/>
+	<SubTexture name="piedritititias0008" x="433" y="334" width="351" height="294" frameX="-49" frameY="-123" frameWidth="433" frameHeight="417"/>
+	<SubTexture name="piedritititias0009" x="433" y="628" width="227" height="225" frameX="-109" frameY="-192" frameWidth="433" frameHeight="417"/>
+</TextureAtlas>

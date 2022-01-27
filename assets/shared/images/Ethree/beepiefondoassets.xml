@@ -2,7 +2,7 @@
 <TextureAtlas imagePath="beepiefondoassets.png">
 	<!-- Created with Adobe Animate version 21.0.7.42652 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="characters_walking0000" x="0" y="0" width="489" height="473" pivotX="0" pivotY="-16" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0000" x="0" y="0" width="489" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
 	<SubTexture name="characters_walking0001" x="0" y="0" width="489" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
 	<SubTexture name="characters_walking0002" x="489" y="0" width="489" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
 	<SubTexture name="characters_walking0003" x="489" y="0" width="489" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
@@ -171,27 +171,27 @@
 	<SubTexture name="characters_walking0166" x="7475" y="2365" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
 	<SubTexture name="characters_walking0167" x="7475" y="2365" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
 	<SubTexture name="characters_walking0168" x="0" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0169" x="575" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0170" x="1150" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0171" x="1725" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0172" x="2300" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0173" x="2300" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0174" x="2300" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0175" x="2300" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0176" x="2300" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0177" x="2300" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0178" x="2300" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0179" x="2300" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0180" x="2875" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0181" x="3450" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0182" x="4025" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0183" x="4600" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0184" x="5175" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0185" x="5175" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0186" x="5175" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0187" x="5175" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0188" x="5175" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0189" x="5175" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0190" x="5175" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
-	<SubTexture name="characters_walking0191" x="5175" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0169" x="0" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0170" x="575" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0171" x="575" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0172" x="1150" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0173" x="1150" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0174" x="1725" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0175" x="1725" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0176" x="0" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0177" x="0" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0178" x="575" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0179" x="575" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0180" x="2300" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0181" x="2875" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0182" x="3450" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0183" x="4025" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0184" x="4600" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0185" x="4600" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0186" x="4600" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0187" x="4600" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0188" x="4600" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0189" x="4600" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0190" x="4600" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
+	<SubTexture name="characters_walking0191" x="4600" y="2838" width="575" height="473" frameX="0" frameY="0" frameWidth="1051" frameHeight="473"/>
 </TextureAtlas>

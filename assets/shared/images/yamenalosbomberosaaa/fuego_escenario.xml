@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fuego_escenario.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fuego suelo0000" x="0" y="0" width="1016" height="410" pivotX="97" pivotY="308.7" frameX="-86" frameY="-297" frameWidth="1134" frameHeight="728"/>
+	<SubTexture name="fuego suelo0001" x="0" y="0" width="1016" height="410" frameX="-86" frameY="-297" frameWidth="1134" frameHeight="728"/>
+	<SubTexture name="fuego suelo0002" x="1016" y="0" width="1028" height="433" frameX="-77" frameY="-295" frameWidth="1134" frameHeight="728"/>
+	<SubTexture name="fuego suelo0003" x="2044" y="0" width="994" height="469" frameX="-115" frameY="-241" frameWidth="1134" frameHeight="728"/>
+	<SubTexture name="fuego suelo0004" x="2044" y="0" width="994" height="469" frameX="-115" frameY="-241" frameWidth="1134" frameHeight="728"/>
+	<SubTexture name="fuego suelo0005" x="3038" y="0" width="1058" height="576" frameX="-61" frameY="-149" frameWidth="1134" frameHeight="728"/>
+	<SubTexture name="fuego suelo0006" x="0" y="576" width="1134" height="728"/>
+	<SubTexture name="fuego suelo0007" x="0" y="576" width="1134" height="728"/>
+</TextureAtlas>

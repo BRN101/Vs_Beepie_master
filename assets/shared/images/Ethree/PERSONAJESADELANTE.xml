@@ -1,23 +1,13 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="PERSONAJESADELANTE.png"><SubTexture name="PERSONAJESADELANTE idle0000" x="0" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0001" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0002" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0003" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0004" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0005" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0006" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0007" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0008" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0009" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0010" x="2629" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0011" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0012" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0013" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0014" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0015" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0016" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0017" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0018" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0019" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
-<SubTexture name="PERSONAJESADELANTE idle0020" x="5258" y="0" width="2629" height="1617" frameX="0" frameY="0" frameWidth="2629" frameHeight="1617" />
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PERSONAJESADELANTE.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="personajes0000" x="0" y="0" width="2596" height="1217" pivotX="0" pivotY="-93.9" frameX="-14" frameY="-9" frameWidth="2610" frameHeight="1226"/>
+	<SubTexture name="personajes0001" x="0" y="0" width="2596" height="1217" frameX="-14" frameY="-9" frameWidth="2610" frameHeight="1226"/>
+	<SubTexture name="personajes0002" x="2596" y="0" width="2599" height="1219" frameX="-8" frameY="-5" frameWidth="2610" frameHeight="1226"/>
+	<SubTexture name="personajes0003" x="2596" y="0" width="2599" height="1219" frameX="-8" frameY="-5" frameWidth="2610" frameHeight="1226"/>
+	<SubTexture name="personajes0004" x="5195" y="0" width="2601" height="1220" frameX="-3" frameY="-3" frameWidth="2610" frameHeight="1226"/>
+	<SubTexture name="personajes0005" x="0" y="1220" width="2603" height="1221" frameX="0" frameY="-1" frameWidth="2610" frameHeight="1226"/>
+	<SubTexture name="personajes0006" x="0" y="1220" width="2603" height="1221" frameX="0" frameY="-1" frameWidth="2610" frameHeight="1226"/>
+	<SubTexture name="personajes0007" x="2603" y="1220" width="2603" height="1222" frameX="0" frameY="0" frameWidth="2610" frameHeight="1226"/>
 </TextureAtlas>

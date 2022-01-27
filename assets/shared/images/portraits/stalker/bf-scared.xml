@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf-scared.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dialogue0000" x="0" y="0" width="354" height="385" frameX="0" frameY="-13" frameWidth="354" frameHeight="398"/>
+	<SubTexture name="dialogue0001" x="0" y="0" width="354" height="385" frameX="0" frameY="-13" frameWidth="354" frameHeight="398"/>
+	<SubTexture name="dialogue0002" x="354" y="0" width="348" height="388" frameX="-2" frameY="-10" frameWidth="354" frameHeight="398"/>
+	<SubTexture name="dialogue0003" x="354" y="0" width="348" height="388" frameX="-2" frameY="-10" frameWidth="354" frameHeight="398"/>
+	<SubTexture name="dialogue0004" x="0" y="388" width="339" height="398" frameX="-3" frameY="0" frameWidth="354" frameHeight="398"/>
+	<SubTexture name="dialogue0005" x="0" y="388" width="339" height="398" frameX="-3" frameY="0" frameWidth="354" frameHeight="398"/>
+	<SubTexture name="dialogue0006" x="339" y="388" width="343" height="396" frameX="-2" frameY="-2" frameWidth="354" frameHeight="398"/>
+	<SubTexture name="dialogue0007" x="339" y="388" width="343" height="396" frameX="-2" frameY="-2" frameWidth="354" frameHeight="398"/>
+	<SubTexture name="stop0000" x="0" y="0" width="354" height="385" frameX="0" frameY="-13" frameWidth="354" frameHeight="398"/>
+</TextureAtlas>

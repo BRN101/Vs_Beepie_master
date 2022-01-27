@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="beepietexto.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dialogue0000" x="0" y="0" width="371" height="417" frameX="0" frameY="-10" frameWidth="377" frameHeight="427"/>
+	<SubTexture name="dialogue0001" x="0" y="0" width="371" height="417" frameX="0" frameY="-10" frameWidth="377" frameHeight="427"/>
+	<SubTexture name="dialogue0002" x="371" y="0" width="372" height="418" frameX="0" frameY="-9" frameWidth="377" frameHeight="427"/>
+	<SubTexture name="dialogue0003" x="371" y="0" width="372" height="418" frameX="0" frameY="-9" frameWidth="377" frameHeight="427"/>
+	<SubTexture name="dialogue0004" x="0" y="418" width="371" height="427" frameX="-6" frameY="0" frameWidth="377" frameHeight="427"/>
+	<SubTexture name="dialogue0005" x="0" y="418" width="371" height="427" frameX="-6" frameY="0" frameWidth="377" frameHeight="427"/>
+	<SubTexture name="dialogue0006" x="371" y="418" width="371" height="426" frameX="-6" frameY="-1" frameWidth="377" frameHeight="427"/>
+	<SubTexture name="dialogue0007" x="371" y="418" width="371" height="426" frameX="-6" frameY="-1" frameWidth="377" frameHeight="427"/>
+	<SubTexture name="stop0000" x="0" y="0" width="371" height="417" frameX="0" frameY="-10" frameWidth="377" frameHeight="427"/>
+</TextureAtlas>

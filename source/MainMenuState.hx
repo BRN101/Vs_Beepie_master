@@ -29,7 +29,7 @@ class MainMenuState extends MusicBeatState
 	var menuItems:FlxTypedGroup<FlxSprite>;
 
 	#if !switch
-	var optionShit:Array<String> = ['story mode', 'freeplay', 'donate', 'options'];
+	var optionShit:Array<String> = ['story mode', 'freeplay', 'credits', 'options'];
 	#else
 	var optionShit:Array<String> = ['story mode', 'freeplay'];
 	#end
@@ -43,7 +43,12 @@ class MainMenuState extends MusicBeatState
 	public static var kadeEngineVer:String = "1.5.4" + nightly;
 	public static var gameVer:String = "0.2.7.1";
 
+	var storysprite:FlxSprite;
+	var freeplaysprite:FlxSprite;
+	var optionsprite:FlxSprite;
+
 	var magenta:FlxSprite;
+	var blackshit:FlxSprite;
 	var camFollow:FlxObject;
 	public static var finishedFunnyMove:Bool = false;
 
@@ -83,7 +88,47 @@ class MainMenuState extends MusicBeatState
 		magenta.antialiasing = true;
 		magenta.color = 0xFFfd719b;
 		add(magenta);
-		// magenta.scrollFactor.set();
+
+		blackshit = new FlxSprite(-80).loadGraphic(Paths.image('cosito'));
+		blackshit.scrollFactor.x = 0;
+		blackshit.scrollFactor.y = 0.10;
+		blackshit.setGraphicSize(Std.int(blackshit.width * 1.1));
+		blackshit.updateHitbox();
+		blackshit.screenCenter();
+		blackshit.antialiasing = true;
+		add(blackshit);
+
+
+		storysprite = new FlxSprite();
+		storysprite.frames = Paths.getSparrowAtlas('i hate this menu/STORYMODE_BEEPIE');
+		storysprite.animation.addByPrefix('idle','bepi',24);
+		storysprite.animation.play('idle');
+		storysprite.x -= 50;
+		storysprite.y -= 200;
+		storysprite.visible = true;
+		storysprite.scale.set(0.9,0.9);
+		storysprite.flipX = true;
+		add(storysprite);
+
+		freeplaysprite = new FlxSprite();
+		freeplaysprite.frames = Paths.getSparrowAtlas('i hate this menu/FREEPLAY_BF');
+		freeplaysprite.animation.addByPrefix('idle','bf',24);
+		freeplaysprite.animation.play('idle');
+		freeplaysprite.x -= 50;
+		freeplaysprite.y -= 150;
+		freeplaysprite.visible = false;
+		freeplaysprite.scale.set(0.9,0.9);
+		add(freeplaysprite);
+
+		optionsprite = new FlxSprite();
+		optionsprite.frames = Paths.getSparrowAtlas('i hate this menu/OPTIONS_GF');
+		optionsprite.animation.addByPrefix('idle','gf',24);
+		optionsprite.animation.play('idle');
+		optionsprite.x -= 50;
+		optionsprite.y -= 200;
+		optionsprite.visible = false;
+		optionsprite.scale.set(0.9,0.9);
+		add(optionsprite);
 
 		menuItems = new FlxTypedGroup<FlxSprite>();
 		add(menuItems);
@@ -181,12 +226,6 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				if (optionShit[curSelected] == 'donate')
-				{
-					fancyOpenURL("https://ninja-muffin24.itch.io/funkin");
-				}
-				else
-				{
 					selectedSomethin = true;
 					FlxG.sound.play(Paths.sound('confirmMenu'));
 					
@@ -223,7 +262,6 @@ class MainMenuState extends MusicBeatState
 							}
 						}
 					});
-				}
 			}
 		}
 
@@ -249,6 +287,11 @@ class MainMenuState extends MusicBeatState
 
 				trace("Freeplay Menu Selected");
 
+			case 'credits':
+				FlxG.switchState(new CreditState());
+	
+				trace("Credits Menu Selected");
+	
 			case 'options':
 				FlxG.switchState(new OptionsMenu());
 		}
@@ -264,6 +307,25 @@ class MainMenuState extends MusicBeatState
 				curSelected = 0;
 			if (curSelected < 0)
 				curSelected = menuItems.length - 1;
+			switch (curSelected)
+			{
+				case 0:
+					storysprite.visible = true;
+					freeplaysprite.visible = false;
+					optionsprite.visible = false;
+				case 1:
+					storysprite.visible = false;
+					freeplaysprite.visible = true;
+					optionsprite.visible = false;
+				case 2:
+					storysprite.visible = true;
+					freeplaysprite.visible = false;
+					optionsprite.visible = false;
+				case 3:
+					storysprite.visible = false;
+					freeplaysprite.visible = false;
+					optionsprite.visible = true;
+			}
 		}
 		menuItems.forEach(function(spr:FlxSprite)
 		{
@@ -272,7 +334,7 @@ class MainMenuState extends MusicBeatState
 			if (spr.ID == curSelected && finishedFunnyMove)
 			{
 				spr.animation.play('selected');
-				camFollow.setPosition(spr.getGraphicMidpoint().x, spr.getGraphicMidpoint().y);
+				//camFollow.setPosition(spr.getGraphicMidpoint().x, spr.getGraphicMidpoint().y);
 			}
 
 			spr.updateHitbox();

@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "bf-miku",
-		"player2": "beepie-normal",
+		"player2": "beepie",
 		"notes": [
 			{
 				"lengthInSteps": 16,

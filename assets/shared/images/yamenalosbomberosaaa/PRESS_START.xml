@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fuego.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pressspace0000" x="0" y="0" width="238" height="144" pivotX="0" pivotY="0"/>
+	<SubTexture name="pressspace0001" x="0" y="0" width="238" height="144"/>
+	<SubTexture name="pressspace0002" x="238" y="0" width="238" height="144"/>
+	<SubTexture name="pressspace0003" x="238" y="0" width="238" height="144"/>
+	<SubTexture name="pressspace0004" x="0" y="144" width="238" height="144"/>
+	<SubTexture name="pressspace0005" x="0" y="144" width="238" height="144"/>
+	<SubTexture name="pressspace0006" x="238" y="144" width="238" height="144"/>
+	<SubTexture name="pressspace0007" x="238" y="144" width="238" height="144"/>
+</TextureAtlas>

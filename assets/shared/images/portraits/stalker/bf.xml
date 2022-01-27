@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dialogue0000" x="0" y="0" width="363" height="370" frameX="0" frameY="-23" frameWidth="363" frameHeight="395"/>
+	<SubTexture name="dialogue0001" x="0" y="0" width="363" height="370" frameX="0" frameY="-23" frameWidth="363" frameHeight="395"/>
+	<SubTexture name="dialogue0002" x="363" y="0" width="360" height="376" frameX="-2" frameY="-19" frameWidth="363" frameHeight="395"/>
+	<SubTexture name="dialogue0003" x="363" y="0" width="360" height="376" frameX="-2" frameY="-19" frameWidth="363" frameHeight="395"/>
+	<SubTexture name="dialogue0004" x="0" y="376" width="336" height="395" frameX="-18" frameY="0" frameWidth="363" frameHeight="395"/>
+	<SubTexture name="dialogue0005" x="0" y="376" width="336" height="395" frameX="-18" frameY="0" frameWidth="363" frameHeight="395"/>
+	<SubTexture name="dialogue0006" x="336" y="376" width="340" height="390" frameX="-15" frameY="-5" frameWidth="363" frameHeight="395"/>
+	<SubTexture name="dialogue0007" x="336" y="376" width="340" height="390" frameX="-15" frameY="-5" frameWidth="363" frameHeight="395"/>
+	<SubTexture name="stop10000" x="0" y="0" width="363" height="370" frameX="0" frameY="-23" frameWidth="363" frameHeight="395"/>
+</TextureAtlas>

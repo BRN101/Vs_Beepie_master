@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ICONSS.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BBPANZU0000" x="0" y="0" width="429" height="351"/>
+	<SubTexture name="BLUBI0000" x="429" y="0" width="506" height="379"/>
+	<SubTexture name="BRN0000" x="935" y="0" width="476" height="306"/>
+	<SubTexture name="FORE0000" x="1411" y="0" width="451" height="393"/>
+	<SubTexture name="KIMA0000" x="0" y="393" width="457" height="285"/>
+	<SubTexture name="SICK0000" x="457" y="393" width="483" height="413"/>
+	<SubTexture name="SPRINGY0000" x="940" y="393" width="503" height="407"/>
+	<SubTexture name="STICK0000" x="1443" y="393" width="414" height="399"/>
+	<SubTexture name="VALEN0000" x="0" y="806" width="502" height="336"/>
+	<SubTexture name="joichis0000" x="502" y="806" width="464" height="369"/>
+	<SubTexture name="BBPANZU basic0000" x="0" y="0" width="429" height="351" pivotX="0" pivotY="0"/>
+	<SubTexture name="BBPANZU white0000" x="0" y="0" width="429" height="351" pivotX="0" pivotY="0"/>
+	<SubTexture name="BLUBI basic0000" x="429" y="0" width="506" height="379" pivotX="0" pivotY="0"/>
+	<SubTexture name="BLUBI white0000" x="429" y="0" width="506" height="379" pivotX="0" pivotY="0"/>
+	<SubTexture name="BRN basic0000" x="935" y="0" width="476" height="306" pivotX="-7.2" pivotY="0"/>
+	<SubTexture name="BRN white0000" x="935" y="0" width="476" height="306" pivotX="-7.2" pivotY="0"/>
+	<SubTexture name="FORE basic0000" x="1411" y="0" width="451" height="393" pivotX="0" pivotY="0"/>
+	<SubTexture name="FORE white0000" x="1411" y="0" width="451" height="393" pivotX="0" pivotY="0"/>
+	<SubTexture name="KIMA basic0000" x="0" y="393" width="457" height="285" pivotX="0" pivotY="0"/>
+	<SubTexture name="KIMA white0000" x="0" y="393" width="457" height="285" pivotX="0" pivotY="0"/>
+	<SubTexture name="SICK basic0000" x="457" y="393" width="483" height="413" pivotX="0" pivotY="0"/>
+	<SubTexture name="SICK white0000" x="457" y="393" width="483" height="413" pivotX="0" pivotY="0"/>
+	<SubTexture name="SPRINGY basic0000" x="940" y="393" width="503" height="407" pivotX="0" pivotY="0"/>
+	<SubTexture name="SPRINGY white0000" x="940" y="393" width="503" height="407" pivotX="0" pivotY="0"/>
+	<SubTexture name="STICK basic0000" x="1443" y="393" width="414" height="399" pivotX="0" pivotY="0"/>
+	<SubTexture name="STICK white0000" x="1443" y="393" width="414" height="399" pivotX="0" pivotY="0"/>
+	<SubTexture name="VALEN basic0000" x="0" y="806" width="502" height="336" pivotX="0" pivotY="0"/>
+	<SubTexture name="VALEN white0000" x="0" y="806" width="502" height="336" pivotX="0" pivotY="0"/>
+        <SubTexture name="KOICHIS basic0000" x="502" y="806" width="464" height="369"/>
+        <SubTexture name="KOICHIS basic0000" x="502" y="806" width="464" height="369"/>
+</TextureAtlas>
